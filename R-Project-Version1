@@ -1,0 +1,16 @@
+install.packages("tidyverse")
+install.packages("rvest")
+install.packages("tinytex")
+install.packages("tidyr")
+library(tidyverse)
+library(rvest)
+library(tinytex)
+library(tidyr)
+
+
+RunningBacks = read.csv("C:\\Users\\benja\\OneDrive - The Pennsylvania State University\\R 184\\2023 RB Stats.csv")
+
+RunningBacksTidy = RunningBacks %>%
+  filter(position == "HB") %>%
+  filter(attempts >= 100) %>%
+  select(-c("position", "player_id", "team_name", "breakaway_attempts", "breakaway_yards", "breakaway_percent", "declined_penalties", "designed_yards", "franchise_id","elu_recv_mtf":"elusive_rating", "gap_attempts":"grades_run_block", "run_plays":"scrambles", "zone_attempts"))
