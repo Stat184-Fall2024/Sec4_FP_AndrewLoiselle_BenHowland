@@ -1,0 +1,25 @@
+---
+title: "Who was the best overall Running Back in 2023"
+author: "Andrew Loiselle, Ben Howland"
+format: pdf
+editor: visual
+---
+
+## Backround Information
+
+-   We Like football
+-   We both play fantasy Football
+-   We want to know who to draft
+
+## Methodology
+
+-   Get data from PFF
+-   Wrangle data
+-   Create visualizations
+
+## Data Exploration
+
+-   Make graph with wrangled data to see how to limit even further
+-   Observe new visualizations
+-   Compare results
+-   Draw conclusions
