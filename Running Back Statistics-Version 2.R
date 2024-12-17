@@ -65,3 +65,17 @@ RunningBacksMin100Attempts %>%
     title = "Efficiency in Rushing"
   )
 
+fivenum(RunningBacksMin100Attempts$yco_attempt)
+fivenum(RunningBacksMin100Attempts$yprr)
+fivenum(RunningBacksMin100Attempts$ypa)
+
+TopRunningBacks <- RunningBacksMin100Attempts %>%
+  filter(
+    yco_attempt >= 2.87,
+    yprr >= 0.985,
+    ypa >= 4.1
+  )
+
+
+  
+
