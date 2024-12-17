@@ -76,4 +76,11 @@ TopRunningBacks <- RunningBacksMin100Attempts %>%
     ypa >= 4.1
   )
 
+Top5RunningBacks <- RunningBacksMin100Attempts %>%
+  filter(
+    yco_attempt >= 3.1,
+    yprr >= 1.26,
+    ypa >= 4.5
+  )
+
 view(TopRunningBacks)
