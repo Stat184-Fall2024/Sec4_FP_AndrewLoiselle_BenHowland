@@ -1,0 +1,42 @@
+---
+title: "Who were the most efficient Running Backs in 2023"
+author: "Andrew Loiselle, Ben Howland"
+date: "12/12/2024"
+date-format: "short"
+format: pdf
+editor: visual
+---
+
+## Abstract
+
+<p>One of the most dominating genres of television in the United States in the last decade has been sports. People love to watch matches of soccer, tennis, basketball, and the most prominent sport in the nation by far, is American football. It has become increasingly popular with many sports fans in recent years due to the growing popularity in sports betting and fantasy football. As of 2018, the Supreme Court’s decision to legalize sports betting across the country triggered a wave of expansion, with numerous states passing legislation to allow legal betting on professional and college sports. This decision significantly altered the way Americans engage with sports, leading to a surge in sports betting platforms, both online and in physical sportsbooks. By 2023, over 30 states had legalized sports betting.</p>
+
+<p>In the present report, we’ll report on investigating a position in football: Who were the most efficient Running Backs in the 2023 season? We will present some relevant background information on why we collected and analyzed the data in the way we did, and then describe the methods we used to investigate this question. We will then describe the results that we found and share the results of our analysis. Finally, I will close with some implications of those results.</p>
+
+## Relevant Background Informattion
+
+<p>In Las Vegas, sportsbooks utilize a vast array of statistical data to craft betting props for running backs, particularly focusing on metrics like rushing yards, receiving yards, and yards after contact. These advanced statistics are crucial in shaping the odds for various prop bets, such as total rushing yards, touchdowns, and even more nuanced props like yards gained after contact or receptions made. These statistics are vital in determining betting props as well as analyzing which running backs are more efficient than others.</p>
+
+<p>Rushing yards and receiving yards are relatively straightforward, as they track a running back's overall performance on the ground and through the air, but sportsbooks delve deeper into the context of these numbers by considering factors like offensive line performance, defensive strengths, and even weather conditions. One of the more intricate statistics sportsbooks use is yards after contact (YAC), which reflects a running back's ability to break tackles and gain additional yards once they've been hit by defenders. This metric is especially important for setting props on a player's rushing total, as running backs with a high YAC typically are more difficult to predict in terms of total yardage, but they can offer higher potential returns.</p>
+
+<p>In recent years, advanced analytics like broken tackles, rushing success rates on first and second down, and receiving efficiency have become integral in creating more tailored, complex prop bets for running backs. By analyzing trends and changes in player health or workload, sportsbooks in Vegas are able to provide bettors with a wide array of props that capture the intricacies of each running back's style and likely performance. This data-driven approach ensures that betting lines remain competitive while offering bettors a range of options to place wagers based on deep statistical analysis.</p>
+
+<p>By using this same analysis, we can analyze running backs the same way sportsbooks do to understand which running backs were the most efficient in the NFL in the 2023 season. This will help us predict future trends that will lead to the success of drafting confidently efficient and effective running backs in our fantasy football leagues.</p>
+
+## Methodology
+
+<p>To investigate who the most efficient running back of the 2023 season was, I will make use of the data from a website called PFF, that contains numerous data sheets that go into very specific detail on players and positions from a plethora of different sports. This data is collected from the NFL and organized all together in tidy structured data sheets. We will use the one on running back data to make our analysis.</p>
+
+<p>When given the initial data set, it is obvious that there are some things that are not going to be necessary to the initial or even final data analysis. First, the running back data sheet contains data for some quarterbacks as well as wide receivers, as sometimes there are specifically designed plays that use these positions to do a running play, and then these statistics are kept here when they are not running backs. The first thing we will need to do is remove these players from the data sheet. After this, we can begin to analyze the players based on the previously mentioned attributes that we defined as being essential to a good running back. We can then filter the players each time we make a visualization that we think makes sense to only include the top players, and then filter again by the top players in the other categories as well in order to only have a list of a few running backs that fulfill the title of most efficient, by being in the top percentile of each category. This way, we can have a good understanding of who are the best performing running backs and who would be the best to draft in a fantasy football league.</p>
+
+<p>Throughout this study, I will use visualizations to make conclusions about certain players, and use these as well to create thresholds for what running backs should even be considered for what running backs are the most efficient.</p>
+
+## Data Exploration
+
+![Figure 1: Yards Per Attempt vs Attempts](images/Screenshot%20(24).png){fig-align="center" width="415"}
+
+![Figure 2: Yards After Contact per Attemps vs Player](images/Screenshot (25).png){fig-align="center" width="441"}
+
+![Figure 3: Yards per Route Run vs Player](images/Screenshot (26).png){fig-align="center" width="434"}
+
+![Figure 4: Yards per Rushing Attempt vs Player](images/Screenshot (27).png){fig-align="center" width="431"}
