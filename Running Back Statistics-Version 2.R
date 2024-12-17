@@ -76,6 +76,4 @@ TopRunningBacks <- RunningBacksMin100Attempts %>%
     ypa >= 4.1
   )
 
-
-  
-
+view(TopRunningBacks)
